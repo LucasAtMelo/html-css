@@ -1,0 +1,6 @@
+1 - Coloquei o nav(menu) dentro do header, pois pensei que eles seriam juntos. Oque me causou problemas de alinhamento.
+2- Coloquei Vários Articles no main distribuidos, sendo que era só colocar todo texto do main em um article só. Oque me causou problemas de muitas tags de article desnecessárias.
+3- Não criei pastas específicas (imagens, estilos, fontes). Oque me gerou desorganização
+4- Não coloquei o extra dentro de um aside(conteúdo periférico, que deriva do principal, não é o principal é secundário). Oque me fez não usar uma div semântica.
+5- Usei o Article como <p> (fiz paragrafos com article) ao invés de criar um só article e criar <p> para cada parágrafo
+
