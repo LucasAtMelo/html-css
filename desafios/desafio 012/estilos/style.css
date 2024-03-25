@@ -1,0 +1,126 @@
+@meta "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-destaque: 'Passion One', cursive;
+    --fonte-padrao: Sriracha, cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: var(--fonte-destaque);
+    background-color: black;
+    min-height: 300px;
+}
+
+header h1{
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 10em;
+    padding-top: 50px ;
+    font-weight: bolder;
+    
+     
+}
+
+header  a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f1f1f1;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: light;
+}
+
+main{
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    font-size: 4em;
+}
+
+main p{
+    margin-bottom: 50px ;
+    max-width: 800px;
+    margin: 100px 0 30px 50px;
+    text-align: left;
+    line-height: 130px;
+    word-spacing: 15px;
+}
+
+#joaninha{
+    background-image: url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 20px 0;
+    box-shadow: inset 0px 4px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+#joaninha > p{
+    color: #f1f1f1;
+    background-color: black;
+    padding: 5px;
+    margin-left: 20px;
+    min-width: 50px;
+}
+
+#livro{
+    background-image: url(../imagens/background002.jpg);
+    box-shadow: inset 0px 4px 20px 5px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 0;
+    
+}
+
+#livro > p{
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 40px;
+    color: #f1f1f1;
+    line-height: 100px;
+
+    
+}
+
+footer{
+    background-color: black;
+    font-size: 0.5em;
+    text-align: center;
+    margin: 0;
+    margin-top: 300px;
+    
+}
+
+footer p {
+    color: #f1f1f1;
+    text-align: center;
+    margin: auto;
+    
+    
+    
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+ a:hover{
+    text-decoration: underline;
+}
+
+
+
