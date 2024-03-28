@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 30px;
+            
+            
+        }
+        
+        td, thead, th{
+            border: 1px solid black;
+            padding: 7px;
+            
+        }
+
+        thead{
+            background-color: gray;
+            color: #f1f1f1;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+        .posiçao{
+            text-align: center;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th scope="col">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posiçao">1º</td>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td class="posiçao">2º</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 539 989</td>
+            </tr>
+            <tr>
+                <td class="posiçao">3º</td>
+                <td>Rio de Janeiro</td>
+                <td class="num"> 16 055 174</td>
+            </tr>
+            <tr>
+                <td class="posiçao">4º</td>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td class="posiçao">5º</td>
+                <td>Paraná</td>
+                <td class="num">11 444 526</td>
+            </tr>
+            <tr>
+                <td class="posiçao">6º</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 822 965</td>
+            </tr>
+            <tr>
+                <td class="posiçao">7º</td>
+                <td>Pernambuco</td>
+                <td class="num"> 9 058 931</td>
+            </tr>
+            <tr>
+                <td class="posiçao">8º</td>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td class="posiçao">9º</td>
+                <td>Pará</td>
+                <td class="num">7 581 051</td>
+            </tr>
+            <tr>
+                <td class="posiçao">10º</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 610 361</td>
+            </tr>
+            <tr>
+                <td class="posiçao">11º</td>
+                <td>Goiás</td>
+                <td class="num">7 056 495</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
