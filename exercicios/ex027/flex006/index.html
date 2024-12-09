@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #2E2F33;
+        }
+
+        div.container{
+            background-color: #1D2133;
+            width: 550px;
+            height: 500px;
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            flex-flow: row wrap;
+        }
+        div.fi{
+            background-color: #f1f1f1;
+            height: 100px;
+            width: 190px;
+            margin: 5px;
+            border-radius: 10px;
+
+        }
+
+        div#um{
+            align-content: stretch;
+        }
+
+        div#dois{
+            align-content: flex-start;
+        }
+
+        div#tres{
+            align-content: flex-end;
+        }
+
+        div#quatro{
+            align-content: center;
+
+        }
+
+        div#cinco{
+            align-content: space-between;
+        }
+
+        div#seis{
+            align-content: space-evenly;
+        }
+
+        div#sete{
+            align-content: space-around;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="um">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+
+    </div>
+    <div class="container" id="dois">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+
+    </div>
+
+    <div class="container" id="tres">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+    </div>
+
+    <div class="container" id="quatro">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+
+    </div>
+
+    <div class="container" id="cinco">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+
+    </div>
+    <div class="container" id="seis">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+
+    </div>
+    <div class="container" id=" sete">
+        <div class="fi"></div>
+        <div class="fi"></div>
+        <div class="fi"></div>
+        
+</body>
+</html>
