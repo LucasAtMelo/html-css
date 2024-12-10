@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #0E1D47;
+        }
+
+        main{
+            background-color: #f1f1f1;
+            width: 60vw;
+            height: 40vh;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 10px;
+
+
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        div.fi{
+            border: black 1px solid;
+            flex-basis: 100px;
+            
+            
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+
+        <div class="fi">JÁ CHEGOU O DISCO VOADOR</div>
+        <div class="fi">b</div>
+        <div class="fi">c</div>
+
+    </main>
+</body>
+</html>
