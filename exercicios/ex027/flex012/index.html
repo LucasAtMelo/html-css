@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: #1C1821;
+        }
+
+        main{
+            width: 90vw;
+            height: 70vh;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 30px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .fi{
+            
+            border: solid 1px black;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+
+            
+
+
+        }
+
+        #cxa{
+
+            flex: 1 1 100px ;
+        }
+
+        #cxb{
+            
+            flex: 0 1 150px;
+        }
+
+        #cxc{
+
+            flex: 2 1 100px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="fi" id="cxa">A</div>
+        <div class="fi" id="cxb">B</div>
+        <div class="fi" id="cxc">C</div>
+
+    </main>
+    
+
+</body>
+</html>
