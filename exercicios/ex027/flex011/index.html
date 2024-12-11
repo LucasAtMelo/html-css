@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: #000F29;
+        }
+
+        main{
+            background-color: #f1f1f1;
+            width: 80vw;
+            height: 40vh;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 30px;
+
+            display: flex;
+            flex-flow: column nowrap;
+            
+
+        }
+
+        .pai{
+            border: solid 1px black;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            margin: 30px;
+
+            
+            
+            padding: 10px;
+            border-radius: 10px;
+
+            
+            
+        }
+
+        .fi{
+        flex-basis: 180px ;
+        padding: 10px;
+        border: solid 1px red;
+        border-radius: 10px;
+        
+
+
+        }
+
+
+        #cxaa{
+
+            flex-grow: 0;
+            flex-shrink: 1;
+
+        }
+
+        #cxab{
+
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        #cxac{
+
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        #cxba{
+
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        #cxbb{
+
+            flex-grow: 2;
+            flex-shrink: 1;
+        }
+
+        #cxbc{
+            flex-grow: 4;
+            flex-shrink: 2;
+        }
+
+        #cxca{
+
+            flex-grow: 0;
+            flex-shrink: 4;
+        }
+
+        #cxcb{
+
+            flex-grow: 3;
+            flex-shrink: 1;
+        }
+
+        #cxcc{
+
+            flex-grow: 6;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="pai">
+        <div class="fi" id="cxaa">a</div>
+        <div class="fi" id="cxab">a</div>
+        <div class="fi" id="cxac">a</div>
+        </div>
+
+        <div class="pai">
+            <div class="fi" id="cxba">a</div>
+            <div class="fi" id="cxbb">a</div>
+            <div class="fi" id="cxbc">a</div>
+            </div>
+
+        <div class="pai">
+        <div class="fi" id="cxca">a</div>
+        <div class="fi" id="cxcb">a</div>
+        <div class="fi" id="cxcc">a</div>
+        </div>
+        
+        
+
+    </main>
+</body>
+</html>
